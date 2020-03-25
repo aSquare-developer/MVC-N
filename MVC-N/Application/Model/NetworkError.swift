@@ -1,5 +1,5 @@
 //
-//  GetCommentResponse.swift
+//  NetworkError.swift
 //  MVC-N
 //
 //  Created by Artur Anissimov on 25.03.2020.
@@ -8,8 +8,7 @@
 
 import Foundation
 
-struct GetCommentResponse {
-    
-    
-    
+enum NetworkError: Error {
+    case failInternetError
+    case noInternetConnection
 }

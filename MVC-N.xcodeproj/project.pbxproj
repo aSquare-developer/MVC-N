@@ -12,6 +12,7 @@
 		75CA3DFA242B9E32000C2B62 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CA3DF9242B9E32000C2B62 /* NetworkService.swift */; };
 		75CA3DFD242BA54D000C2B62 /* CommentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CA3DFC242BA54D000C2B62 /* CommentNetworkService.swift */; };
 		75CA3DFF242BA5E7000C2B62 /* GetCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CA3DFE242BA5E7000C2B62 /* GetCommentResponse.swift */; };
+		75CA3E02242BA6EA000C2B62 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CA3E01242BA6EA000C2B62 /* NetworkError.swift */; };
 		75FB13C4242A898C0067213B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FB13C3242A898C0067213B /* AppDelegate.swift */; };
 		75FB13C6242A898C0067213B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FB13C5242A898C0067213B /* SceneDelegate.swift */; };
 		75FB13C8242A898C0067213B /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FB13C7242A898C0067213B /* CommentsViewController.swift */; };
@@ -27,6 +28,7 @@
 		75CA3DF9242B9E32000C2B62 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		75CA3DFC242BA54D000C2B62 /* CommentNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentNetworkService.swift; sourceTree = "<group>"; };
 		75CA3DFE242BA5E7000C2B62 /* GetCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentResponse.swift; sourceTree = "<group>"; };
+		75CA3E01242BA6EA000C2B62 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		75FB13C0242A898C0067213B /* MVC-N.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-N.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FB13C3242A898C0067213B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75FB13C5242A898C0067213B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,14 @@
 			path = CommentNetworkService;
 			sourceTree = "<group>";
 		};
+		75CA3E00242BA679000C2B62 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				75CA3DFE242BA5E7000C2B62 /* GetCommentResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 		75FB13B7242A898C0067213B = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		75FB13D7242A8A040067213B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				75CA3E01242BA6EA000C2B62 /* NetworkError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,8 +168,8 @@
 		75FB13DE242A8A840067213B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				75CA3E00242BA679000C2B62 /* Responses */,
 				7552B92B242A925200B8C44B /* Comment.swift */,
-				75CA3DFE242BA5E7000C2B62 /* GetCommentResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -251,6 +262,7 @@
 				75FB13C6242A898C0067213B /* SceneDelegate.swift in Sources */,
 				75CA3DFA242B9E32000C2B62 /* NetworkService.swift in Sources */,
 				75CA3DFF242BA5E7000C2B62 /* GetCommentResponse.swift in Sources */,
+				75CA3E02242BA6EA000C2B62 /* NetworkError.swift in Sources */,
 				7552B92A242A913500B8C44B /* CommentCell.swift in Sources */,
 				75CA3DFD242BA54D000C2B62 /* CommentNetworkService.swift in Sources */,
 			);
